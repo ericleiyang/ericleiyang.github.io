@@ -1,24 +1,35 @@
 {
-  "name": "hpstr-theme",
-  "author": "Michael Rose <michael@mademistakes.com>",
-  "homepage": "http://mmistakes.github.io/hpstr-jekyll-theme/",
+  "name": "simple_landingpage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
-    "url": "git://github.com/mmistakes/hpstr-jekyll-theme.git"
+    "url": "git+https://jithinb68@bitbucket.org/jithinb68/simple_landingpage.git"
   },
-  "bugs": {
-    "url": "https://github.com/mmistakes/hpstr-jekyll-theme/issues"
-  },
-  "engines": {
-    "node": ">= 0.10.0"
-  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/jithinb68/simple_landingpage#readme",
   "devDependencies": {
-    "grunt": "~0.4.1",
-    "grunt-contrib-clean": "~0.5.0",
-    "grunt-contrib-jshint": "~0.6.3",
-    "grunt-contrib-uglify": "~0.2.2",
-    "grunt-contrib-watch": "~0.5.2",
-    "grunt-contrib-imagemin": "~0.2.0",
-    "grunt-svgmin": "~0.2.0"
+    "autoprefixer": "^9.6.1",
+    "browser-sync": "^2.26.7",
+    "cssnano": "^4.1.10",
+    "gulp": "^4.0.2",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "merge-stream": "^2.0.0"
+  },
+  "dependencies": {
+    "aos": "^3.0.0-beta.6",
+    "bootstrap": "^4.3.1",
+    "mdi": "^2.2.43",
+    "owl.carousel": "^2.3.4",
+    "owl.carousel2": "^2.2.1",
+    "popper.js": "^1.15.0"
   }
 }
